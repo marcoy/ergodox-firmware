@@ -154,6 +154,7 @@ _F12,       _F6,       _F7,       _F8,       _F9,         _F10,        0,
 #define  s2kcap   &kbfun_2_keys_capslock_press_release
 #define  slpunum  &kbfun_layer_push_numpad
 #define  slponum  &kbfun_layer_pop_numpad
+#define  lsticky1 &kbfun_layer_sticky_1
 
 // ----------------------------------------------------------------------------
 // PRESS
@@ -177,7 +178,7 @@ NULL,
         slpunum, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
          kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
                  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
-         lpush1, kprrel, kprrel, kprrel, kprrel, kprrel, s2kcap,
+       lsticky1, kprrel, kprrel, kprrel, kprrel, kprrel, s2kcap,
                          kprrel, kprrel, kprrel, kprrel, kprrel,
  kprrel, kprrel,
  kprrel,   NULL,   NULL,
@@ -276,7 +277,7 @@ NULL,
           NULL, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
         kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
                 kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
-         lpop1, kprrel, kprrel, kprrel, kprrel, kprrel, s2kcap,
+      lsticky1, kprrel, kprrel, kprrel, kprrel, kprrel, s2kcap,
                         kprrel, kprrel, kprrel, kprrel, kprrel,
  kprrel, kprrel,
  kprrel,   NULL,   NULL,
